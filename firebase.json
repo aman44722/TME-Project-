@@ -1,0 +1,68 @@
+{
+  "hosting": {
+    "public": "public",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "/about",
+        "destination": "/about.html"
+      },
+      {
+        "source": "/technologies",
+        "destination": "/technologies.html"
+      },
+      {
+        "source": "/contact",
+        "destination": "/contact.html"
+      },
+      {
+        "source": "/services",
+        "destination": "/services.html"
+      },
+      {
+        "source": "/blog",
+        "destination": "/blog.html"
+      },
+      {
+        "source": "/testimonials",
+        "destination": "/testimonials.html"
+      },
+      {
+        "source": "/get-a-quote",
+        "destination": "/get-a-quote.html"
+      },
+      {
+        "source": "/the-benefits-of-managed-it-services",
+        "destination": "/the-benefits-of-managed-it-services.html"
+      },
+      {
+        "source": "/choosing-the-right-it-service-provider",
+        "destination": "/choosing-the-right-it-service-provider.html"
+      },
+      {
+        "source": "/flutter-development",
+        "destination": "/flutter-development.html"
+      },
+      {
+        "source": "/android-development",
+        "destination": "/android-development.html"
+      },
+      {
+        "source": "/ios-development",
+        "destination": "/ios-development.html"
+      },
+      {
+        "source": "/website-development",
+        "destination": "/website-development.html"
+      },
+      {
+        "source": "**/*.html",
+        "destination": "/$1"
+      },
+      {
+        "source": "**",
+        "destination": "/404.html"
+      }
+    ]
+  }
+}

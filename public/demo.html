@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Replace .html Extension</title>
+</head>
+<body>
+    <a id="originalUrl" href="https://example.com/page.html"><p>Original URL: <span >https://example.com/page.html</span></p></a>
+    <a id="modifiedUrl" href="#"> <p>Modified URL:</p></a>
+   
+
+    <script>
+        // Get the original URL
+        var originalUrl = document.getElementById("originalUrl").textContent;
+
+        // Replace the .html extension with a different extension or remove it
+        var modifiedUrl = originalUrl.replace(".html", ".newedfextension"); // Replace with your desired extension
+
+        // Display the modified URL
+        document.getElementById("modifiedUrl") = modifiedUrl;
+    </script>
+</body>
+</html>
